@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # def reverse_each_word(array)
 # new_array = array.split(' ') 
 # empty_array = []
@@ -15,3 +16,12 @@ end
 new_array.join(' ')
 end
 
+=======
+def reverse_each_word(array)
+new_array = array.split(' ') 
+new_array.each do 
+  puts new_array.reverse
+end
+p reverse_each_word(array)
+end
+>>>>>>> 4188aecfbe3ca19183e4cf450896ab311aef2962
